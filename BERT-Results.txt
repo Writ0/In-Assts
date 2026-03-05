@@ -1,0 +1,93 @@
+================================================================================
+TRAINING START
+================================================================================
+
+Epoch 1/8 (247s)
+  Train Loss: 3.3241 (L1: 0.9355, L2: 2.3862, Hier: 0.0239)
+  Val Loss:   1.5559
+  Val L1 — Micro-F1: 0.7513 | Macro-F1: 0.7654
+  Val L2 — Micro-F1: 0.7379 | Macro-F1: 0.6409
+  Val Combined Macro-F1: 0.7032
+  ✓ New best model saved (Combined F1: 0.7032)
+
+Epoch 2/8 (249s)
+  Train Loss: 0.9771 (L1: 0.3639, L2: 0.6113, Hier: 0.0195)
+  Val Loss:   0.4980
+  Val L1 — Micro-F1: 0.9373 | Macro-F1: 0.9417
+  Val L2 — Micro-F1: 0.9059 | Macro-F1: 0.8819
+  Val Combined Macro-F1: 0.9118
+  ✓ New best model saved (Combined F1: 0.9118)
+
+Epoch 3/8 (250s)
+  Train Loss: 0.3734 (L1: 0.1667, L2: 0.2049, Hier: 0.0175)
+  Val Loss:   0.3922
+  Val L1 — Micro-F1: 0.9576 | Macro-F1: 0.9606
+  Val L2 — Micro-F1: 0.9288 | Macro-F1: 0.9041
+  Val Combined Macro-F1: 0.9323
+  ✓ New best model saved (Combined F1: 0.9323)
+
+Epoch 4/8 (249s)
+  Train Loss: 0.1802 (L1: 0.0851, L2: 0.0934, Hier: 0.0166)
+  Val Loss:   0.3654
+  Val L1 — Micro-F1: 0.9667 | Macro-F1: 0.9674
+  Val L2 — Micro-F1: 0.9364 | Macro-F1: 0.9196
+  Val Combined Macro-F1: 0.9435
+  ✓ New best model saved (Combined F1: 0.9435)
+
+Epoch 5/8 (250s)
+  Train Loss: 0.0946 (L1: 0.0481, L2: 0.0448, Hier: 0.0162)
+  Val Loss:   0.2921
+  Val L1 — Micro-F1: 0.9750 | Macro-F1: 0.9762
+  Val L2 — Micro-F1: 0.9389 | Macro-F1: 0.9228
+  Val Combined Macro-F1: 0.9495
+  ✓ New best model saved (Combined F1: 0.9495)
+
+Epoch 6/8 (250s)
+  Train Loss: 0.0514 (L1: 0.0308, L2: 0.0190, Hier: 0.0160)
+  Val Loss:   0.2941
+  Val L1 — Micro-F1: 0.9732 | Macro-F1: 0.9742
+  Val L2 — Micro-F1: 0.9517 | Macro-F1: 0.9367
+  Val Combined Macro-F1: 0.9555
+  ✓ New best model saved (Combined F1: 0.9555)
+
+Epoch 7/8 (250s)
+  Train Loss: 0.0369 (L1: 0.0228, L2: 0.0125, Hier: 0.0159)
+  Val Loss:   0.2907
+  Val L1 — Micro-F1: 0.9758 | Macro-F1: 0.9769
+  Val L2 — Micro-F1: 0.9415 | Macro-F1: 0.9259
+  Val Combined Macro-F1: 0.9514
+  ✗ No improvement (1/2)
+
+Epoch 8/8 (249s)
+  Train Loss: 0.0309 (L1: 0.0191, L2: 0.0102, Hier: 0.0159)
+  Val Loss:   0.2894
+  Val L1 — Micro-F1: 0.9733 | Macro-F1: 0.9743
+  Val L2 — Micro-F1: 0.9440 | Macro-F1: 0.9308
+  Val Combined Macro-F1: 0.9526
+  ✗ No improvement (2/2)
+
+Early stopping triggered at epoch 8
+
+================================================================================
+TRAINING COMPLETE — Best Combined Macro-F1: 0.9555
+================================================================================
+
+
+Best model loaded ✓
+
+=== Sanity Check: Row 0 ===
+True L1: FAK
+True L2: Pax Unwell
+
+Predicted L1 probabilities:
+  AO&CS: 0.0114
+  Catering: 0.0092
+  FAK: 0.9966 ← predicted
+  Medical: 0.0051
+  Safety: 0.0199
+  UPK: 0.0063
+
+Top 3 L2 predictions:
+  Pax Unwell: 0.9952 ← predicted
+  Cabin Crew Unwell: 0.0009
+  Pre-Existing Injury: 0.0007

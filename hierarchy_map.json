@@ -1,0 +1,32 @@
+{
+  "FAK": [
+    "Pax Unwell",
+    "Pre-Existing Injury"
+  ],
+  "Safety": [
+    "Unruly Pax",
+    "Pax non-adherence to instructions",
+    "Crew-SOP",
+    "Flight Ops",
+    "Cabin Crew Unwell",
+    "Cockpit Crew Unwell",
+    "Pax Injury In Flight",
+    "Crew Injury"
+  ],
+  "Catering": [
+    "Hot Water Flask",
+    "Cart Top Extension",
+    "Cart",
+    "Gloves",
+    "SAFA",
+    "SMU"
+  ],
+  "AO&CS": [
+    "Baggage Issue",
+    "Wrong Seat Allocation",
+    "Ramp Misalignment",
+    "Anti-Sabotage Stickers"
+  ],
+  "UPK": [],
+  "Medical": []
+}
